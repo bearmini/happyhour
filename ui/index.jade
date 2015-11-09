@@ -1,0 +1,39 @@
+html
+  head
+    script(src="bower_components/jquery/dist/jquery.js")
+    link(rel="stylesheet" type='text/css' href="vendor/photon-0.1.2-dist/css/photon.css")
+    link(rel="stylesheet" type='text/css' href="css/main.css")
+    title Happy hour!
+
+  body
+    header.toolbar.toolbar-header
+      h1 Happy hour
+    
+    .window-content
+      .padded-more
+        p
+          | Brew version: 
+          span#version
+        p
+          | Last updated: 
+          span#last-updated
+        p
+          | Icon made by &nbsp;
+          a(
+            href="http://www.freepik.com"
+            title="Freepik")
+            | Freepik
+          | &nbsp; from &nbsp;
+          a(
+            href="http://www.flaticon.com"
+            title="Flaticon")
+            | www.flaticon.com
+          | &nbsp; is licensed under &nbsp;
+          a(
+            href="http://creativecommons.org/licenses/by/3.0/"
+            title="Creative Commons BY 3.0")
+            | CC BY 3.0
+
+    script(
+      src="js/main.js"
+      charset="utf-8")
